@@ -7,7 +7,7 @@
 
 .container{
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 20px);
   background-color: rgb(155, 232, 255);
   padding: 10px;
 }
@@ -18,7 +18,7 @@
   background-color: rgb(255, 255, 255);
   border-style: solid;
   border-width: 1px;
-  margin: 100px auto 20px; 
+  margin: 50px auto; 
   padding: 10px 30px 40px;
   border-radius: 15px;
 }
